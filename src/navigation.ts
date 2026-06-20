@@ -64,31 +64,6 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'News',
-      links: [
-        {
-          text: 'News List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
   ],
 };
 
@@ -151,6 +126,8 @@ export const footerData = {
   ],
   footNote: `
   © 2026 North Sea Echoes<br />
-  Site by <a class="text-blue-600 underline dark:text-muted" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a> | Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a>
+  Site by <a class="text-blue-600 underline dark:text-muted" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a><br />
+  "How to Cast a Shadow" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a><br />
+  "Really Good Terribel Things" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://identity-media.co.uk/" target="_blank">Simon Ward</a>
   `,
 };

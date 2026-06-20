@@ -21,13 +21,12 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero actions={[]} image={{ src: '~/assets/images/NSE_2026.jpg', alt: 'North Sea Echoes 2026' }}>
-    <Fragment slot="title">
-      North Sea Echoes<span class="hidden xl:inline"></span>
-    </Fragment>
-
+  <Hero
+    actions={[]}
+    image={{ src: '~/assets/images/NSE_2026.jpg', alt: 'North Sea Echoes 2026 - Photo by Jeremy Saffer' }}
+  >
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline"> A project by Ray Alder and Jim Matheos</span>
+      <b>North Sea Echoes</b> ~ <span class="hidden sm:inline">Ray Alder and Jim Matheos</span>
     </Fragment>
   </Hero>
 
@@ -355,23 +354,27 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
+    image={{
+      src: '~/assets/images/HTCAS_cover_sm.jpg',
+      alt: 'How to Cast a Shadow',
+      width: 270,
+      height: 269,
+    }}
+    imagePosition="right"
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'Order Here',
+        href: 'https://www.metalblade.com/northseaechoes/',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:external-link',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      New album&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">"How to Cast a Shadow"</span>
     </Fragment>
 
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
+    <Fragment slot="subtitle"> Arriving July 24th, 2026. </Fragment>
   </CallToAction>
 </Layout>

@@ -5,7 +5,6 @@ import Headline from '~/components/ui/Headline.astro';
 import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
 import { twMerge } from 'tailwind-merge';
-import type { ImageMetadata } from 'astro';
 
 interface Props extends Widget {
   title?: string;
@@ -13,7 +12,7 @@ interface Props extends Widget {
   tagline?: string;
   callToAction?: CallToAction;
   actions?: string | CallToAction[];
-  image?: string | ImageMetadata;
+  image?: string | Record<string, unknown>;
   imagePosition?: 'left' | 'right';
 }
 
@@ -47,14 +46,7 @@ const {
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
-                <Image
-                  class="w-full rounded-md shadow-lg"
-                  widths={[400, 768]}
-                  width={768}
-                  height={432}
-                  layout="responsive"
-                  {...image}
-                />
+                <Image class="mx-auto rounded-md shadow-lg" widths={[400, 768]} {...image} />
               )}
             </div>
           )}
@@ -88,14 +80,7 @@ const {
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
-                <Image
-                  class="w-full rounded-md shadow-lg"
-                  widths={[400, 768]}
-                  width={768}
-                  height={432}
-                  layout="responsive"
-                  {...image}
-                />
+                <Image class="mx-auto rounded-md shadow-lg" widths={[400, 768]} {...image} />
               )}
             </div>
           )}

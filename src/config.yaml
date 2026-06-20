@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: NORTH SEA ECHOES
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -44,7 +44,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'news' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 

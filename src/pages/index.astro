@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'North Sea Echoes',
   ignoreTitleTemplate: true,
 };
 ---
@@ -21,37 +21,19 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
-    ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
-  >
+  <Hero actions={[]} image={{ src: '~/assets/images/NSE_2026.jpg', alt: 'North Sea Echoes 2026' }}>
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white"> Astro v6</span> + Tailwind CSS
+      North Sea Echoes<span class="hidden xl:inline"></span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro v6 +
-        Tailwind CSS v4.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages & Blogs.
+      <span class="hidden sm:inline"> A project by Ray Alder and Jim Matheos</span>
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <Note title="How to Cast a Shadow" description="- the new album arriving July 24th, 2026" />
 
   <!-- Features Widget *************** -->
 
@@ -314,11 +296,8 @@ const metadata = {
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro v6 + Tailwind CSS v4.
-                        Astro is a very interesting technology. Thanks.
-                `}
+    title="Latest News"
+    information={`Stay updated with the latest news, announcements, and updates from North Sea Echoes.`}
   />
 
   <!-- FAQs Widget ******************* -->

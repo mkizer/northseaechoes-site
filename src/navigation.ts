@@ -3,25 +3,33 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'News',
+      href: getBlogPermalink(),
+    },
+    {
+      text: 'Bio',
+      href: getPermalink('/bio'),
+    },
+    {
+      text: 'Music',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'How to Cast a Shadow (2026)',
+          href: getPermalink('/music/how-to-cast-a-shadow'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Really Good Terrible Things (2024)',
+          href: getPermalink('/music/really-good-terrible-things'),
         },
       ],
+    },
+    {
+      text: 'Images',
+      href: getPermalink('/images'),
+    },
+    {
+      text: 'Contact',
+      href: getPermalink('/contact'),
     },
     {
       text: 'Pages',
@@ -57,39 +65,10 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'News',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
+          text: 'News List',
           href: getBlogPermalink(),
         },
         {
@@ -110,12 +89,7 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
@@ -156,7 +130,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
+        { text: 'News', href: getBlogPermalink() },
         { text: 'Careers', href: '#' },
         { text: 'Press', href: '#' },
         { text: 'Inclusion', href: '#' },
@@ -170,13 +144,13 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/NorthSea_Echoes' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/northseaechoes/' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/NorthSeaEchoesOFFICIAL' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+  © 2026 North Sea Echoes<br />
+  Site by <a class="text-blue-600 underline dark:text-muted" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a> | Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a>
   `,
 };

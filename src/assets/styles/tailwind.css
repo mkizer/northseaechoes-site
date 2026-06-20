@@ -13,6 +13,18 @@
   --color-default: var(--aw-color-text-default);
   --color-muted: var(--aw-color-text-muted);
 
+  --color-slate-50: #faf7f2;
+  --color-slate-100: #f5f0e8;
+  --color-slate-200: #e8ded1;
+  --color-slate-300: #eee7dc;
+  --color-slate-400: #d4c3b3;
+  --color-slate-500: #9e8a75;
+  --color-slate-600: #4e3d1c;
+  --color-slate-700: #3e3016;
+  --color-slate-800: #2e2215;
+  --color-slate-900: #241a0e;
+  --color-slate-950: #0e0905;
+
   --font-sans:
     'var(--aw-font-sans, ui-sans-serif)', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';

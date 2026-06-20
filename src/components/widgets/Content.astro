@@ -16,6 +16,7 @@ const {
   columns,
   image = await Astro.slots.render('image'),
   isReversed = false,
+  isBeforeContent = false,
   isAfterContent = false,
 
   id,
@@ -52,7 +53,7 @@ const columnsClass =
 <WidgetWrapper
   id={id}
   isDark={isDark}
-  containerClass={`max-w-7xl mx-auto ${isAfterContent ? 'pt-0 md:pt-0 lg:pt-0' : ''} ${classes?.container ?? ''}`}
+  containerClass={`max-w-7xl mx-auto ${isBeforeContent ? 'pb-0 md:pb-0 lg:pb-0' : ''} ${isAfterContent ? 'pt-0 md:pt-0 lg:pt-0' : ''} ${classes?.container ?? ''}`}
   bg={bg}
 >
   <Headline

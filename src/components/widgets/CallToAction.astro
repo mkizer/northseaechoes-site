@@ -14,6 +14,8 @@ interface Props extends Widget {
   actions?: string | CallToAction[];
   image?: string | Record<string, unknown>;
   imagePosition?: 'left' | 'right';
+  isBeforeContent?: boolean;
+  isAfterContent?: boolean;
 }
 
 const {
@@ -23,6 +25,8 @@ const {
   actions = await Astro.slots.render('actions'),
   image = await Astro.slots.render('image'),
   imagePosition = 'right',
+  isBeforeContent = false,
+  isAfterContent = false,
 
   id,
   isDark = false,
@@ -31,7 +35,12 @@ const {
 } = Astro.props;
 ---
 
-<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+<WidgetWrapper
+  id={id}
+  isDark={isDark}
+  containerClass={`max-w-6xl mx-auto ${isBeforeContent ? 'pb-0 md:pb-0 lg:pb-0' : ''} ${isAfterContent ? 'pt-0 md:pt-0 lg:pt-0' : ''} ${classes?.container ?? ''}`}
+  bg={bg}
+>
   <div
     class={twMerge(
       'max-w-3xl mx-auto text-center p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-600 bg-white dark:bg-slate-900',

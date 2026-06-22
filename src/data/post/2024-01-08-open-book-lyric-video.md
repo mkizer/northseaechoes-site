@@ -3,6 +3,7 @@ publishDate: 2024-01-08T00:00:00Z
 author: Michael Kizer
 title: 'New release: North Sea Echoes "Open Book" (Lyric Video)'
 excerpt: 'Official lyric video for the single "Open Book" from the debut album Really Good Terrible Things, available worldwide on Feb 23, 2024.'
+slug: open-book-lyric-video
 image: '~/assets/images/OpenBook_video2_550x310.jpg'
 category: News
 tags:

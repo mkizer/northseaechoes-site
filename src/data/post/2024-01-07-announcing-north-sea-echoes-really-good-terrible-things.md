@@ -3,6 +3,7 @@ publishDate: 2024-01-07T00:00:00Z
 author: Michael Kizer
 title: 'Announcing - North Sea Echoes "Really Good Terrible Things"'
 excerpt: 'Debut album from North Sea Echoes set for Feb. 23, 2024 release.'
+slug: announcing-north-sea-echoes-really-good-terrible-things
 image: '~/assets/images/NSE_2024_01.jpg'
 category: News
 tags:

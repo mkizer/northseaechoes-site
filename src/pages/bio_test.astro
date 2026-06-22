@@ -1,0 +1,72 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+
+const metadata = {
+  title: 'Bio',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    isBeforeContent
+    image={{
+      src: '~/assets/images/HTCAS_cover.jpg',
+      alt: 'How to Cast a Shadow (2026)',
+      caption: 'How to Cast a Shadow (2026)',
+      captionJustification: 'center',
+    }}
+  >
+    <Fragment slot="content">
+      Check out the first single, "Enjoy the View"<br /><br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/sbXCX_P617k?si=SffDStP4KrTOBKHr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+      <br /><br />
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2306667506&color=ab8469"
+      ></iframe>
+      <div class="text-xs text-muted mt-1 opacity-70">
+        <a
+          href="https://soundcloud.com/metalbladerecords"
+          title="Metal Blade Records"
+          target="_blank"
+          class="hover:underline"
+        >
+          Metal Blade Records
+        </a>{' '}
+        ·{' '}
+        <a
+          href="https://soundcloud.com/metalbladerecords/north-sea-echoes-enjoy-the-view"
+          title="North Sea Echoes - Enjoy the View"
+          target="_blank"
+          class="hover:underline"
+        >
+          North Sea Echoes "Enjoy the View"
+        </a>
+      </div>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+
+
+
+</Layout>

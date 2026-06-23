@@ -12,16 +12,7 @@ export const headerData = {
     },
     {
       text: 'Music',
-      links: [
-        {
-          text: 'How to Cast a Shadow (2026)',
-          href: getPermalink('/music/how-to-cast-a-shadow'),
-        },
-        {
-          text: 'Really Good Terrible Things (2024)',
-          href: getPermalink('/music/really-good-terrible-things'),
-        },
-      ],
+      href: getPermalink('/music'),
     },
     {
       text: 'Images',
@@ -31,86 +22,26 @@ export const headerData = {
       text: 'Contact',
       href: getPermalink('/contact'),
     },
-    {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
   ],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'News',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'All Posts', href: '/news' },
+        { text: 'News Only', href: '/category/news' },
+        { text: 'Videos Only', href: 'tag/video' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Other Links',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'News', href: getBlogPermalink() },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Bio', href: '/bio' },
+        { text: 'Music', href: '/music' },
+        { text: 'Images', href: '/images' },
+        { text: 'Contact', href: '/contact' },
       ],
     },
   ],

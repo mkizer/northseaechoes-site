@@ -37,7 +37,7 @@ As Alder sings on *"All Fall Away,"* *"Days blurring into days while bridges tur
 
 
 ### Really Good Terrible Things (2024)
-![Ray Alder and Jim Matheos](../assets/images/NSE_2024_05rev.jpg)
+![Jim Matheos and Ray Alder](../assets/images/NSE_2024_01.jpg)
 
 
 #### HISTORY

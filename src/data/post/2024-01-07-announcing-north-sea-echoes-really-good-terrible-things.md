@@ -13,6 +13,7 @@ metadata:
 ---
 
 ## North Sea Echoes
+
 ### Feb. 23, 2024 release date: _Really Good Terrible Things_
 
 **Ray Alder** and **Jim Matheos**’ musical legacy is vast and lauded, both as collaborators and individuals. Alder has been the vocalist and main co-writer for prog metal heroes Fates Warning for the past 35 years. With them he has recorded 10 albums between 1988 (_No Exit_) and 2020 (_Long Day Good Night_). Further rounding out his discography are seven albums with Redemption, two solo albums, and the band A-Z with Mark Zonder, which debuted in 2022.
@@ -39,17 +40,18 @@ _Really Good Terrible Things_ shows the breadth and versatility of the acclaimed
 
 **North Sea Echoes – lineup**  
 Jim Matheos – guitar  
-Ray Alder – vocals  
+Ray Alder – vocals
 
 **North Sea Echoes online**  
 [https://northseaechoes.com](https://northseaechoes.com)  
-[https://www.metalblade.com/northseaechoes](https://www.metalblade.com/northseaechoes)  
+[https://www.metalblade.com/northseaechoes](https://www.metalblade.com/northseaechoes)
 
 ![North Sea Echoes - Really Good Terrible Things](../../assets/images/north-sea-echoes-bundle_trans.png)
 
 **ORDER [HERE](https://www.metalblade.com/northseaechoes)**
 
 **Really Good Terrible Things -- Track List**
+
 1. Open Book
 2. Flowers in Decay
 3. Unmoved

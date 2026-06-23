@@ -24,38 +24,39 @@ Lyric Video by Simon Ward for 1d3ntity - [identity-media.co.uk](https://identity
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dvYfsvcjjPo?si=7INx89bui9s9pYbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Open Book**
+
 Now the sunrise has begun  
 Tired eyes awaken  
-To discover that another summer's gone  
+To discover that another summer's gone
 
 Now those days that seemed to last  
 Forever live in the past  
-And the nights grow colder, longer, darker still  
+And the nights grow colder, longer, darker still
 
 Every day is just an open book  
 With the words flying off the pages  
 But no matter how those lines are written  
-Every story has an end  
+Every story has an end
 
 We're a cloud behind the moon  
 We're a storm that's gone too soon  
-A reflection that moves so slowly it hurts  
+A reflection that moves so slowly it hurts
 
 Sometimes memories are blurred  
 But those images occur  
-Like the glowing embers of bridges we've burned  
+Like the glowing embers of bridges we've burned
 
 Every day is just an open book  
 With the words flying off the pages  
 But no matter how those lines are written  
-Every story has an end  
+Every story has an end
 
 We stand alone  
 These thoughts our own  
 The sun has gone  
-Winter has come  
+Winter has come
 
 Every day is just an open book  
 With the words flying off the pages  
 But no matter how those lines are written  
-Every story has an end  
+Every story has an end

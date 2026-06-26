@@ -41,6 +41,11 @@ const metadata = {
 </Layout> --><!-- New gallery layout -->
 <Layout metadata={metadata}>
   <section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Images</h1>
+      <p class="mt-4 text-lg text-neutral-400">Promotional Photos</p>
+    </div>
+
     <!-- Masonry Grid Container -->
     <div class="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
       {
@@ -58,35 +63,35 @@ const metadata = {
                 class="w-full h-auto object-cover"
               />
             </button>
-
-            {/* 2. Hidden Backdrop Dialog */}
-            <dialog
-              id={`dialog-${index}`}
-              class="p-0 bg-transparent backdrop:bg-black/80 backdrop:backdrop-blur-sm max-w-[90vw] max-h-[90vh] rounded-lg overflow-hidden focus:outline-none"
-              onclick="this.close()"
-              {
-              /* Clicking the backdrop closes it */ }
-            >
-              <form method="dialog" class="relative">
-                {/* Close Button */}
-                <button class="absolute top-4 right-4 z-50 bg-black/60 text-white hover:bg-black/90 w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold transition">
-                  ✕
-                </button>
-                {/* High-Res Render inside Modal */}
-                <Image
-                  src={img.default}
-                  alt="Full screen view"
-                  width={1400}
-                  {
-                  /* Higher resolution for full-screen display */ }
-                  class="max-w-full max-h-[85vh] object-contain mx-auto"
-                />
-              </form>
-            </dialog>
           </div>
         ))
       }
     </div>
+
+    {/* 2. Hidden Backdrop Dialogs placed outside the masonry grid to prevent column positioning issues */}
+    {
+      images.map((img, index) => (
+        <dialog
+          id={`dialog-${index}`}
+          class="fixed inset-0 z-50 p-0 m-auto bg-transparent backdrop:bg-black/80 backdrop:backdrop-blur-sm max-w-[90vw] max-h-[90vh] rounded-lg overflow-hidden focus:outline-none"
+          onclick="this.close()"
+        >
+          <form method="dialog" class="relative">
+            {/* Close Button */}
+            <button class="absolute top-4 right-4 z-50 bg-black/60 text-white hover:bg-black/90 w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold transition">
+              ✕
+            </button>
+            {/* High-Res Render inside Modal */}
+            <Image
+              src={img.default}
+              alt="Full screen view"
+              width={1400}
+              class="max-w-full max-h-[85vh] object-contain mx-auto"
+            />
+          </form>
+        </dialog>
+      ))
+    }
   </section>
 </Layout>
 

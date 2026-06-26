@@ -32,7 +32,7 @@ export const footerData = {
       links: [
         { text: 'All Posts', href: '/news' },
         { text: 'News Only', href: '/category/news' },
-        { text: 'Videos Only', href: 'tag/video' },
+        { text: 'Videos Only', href: '/tag/video' },
       ],
     },
     {
@@ -59,6 +59,6 @@ export const footerData = {
   © 2026 North Sea Echoes<br />
   Site by <a class="text-blue-600 underline dark:text-muted" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a><br />
   "How to Cast a Shadow" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a><br />
-  "Really Good Terribel Things" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://identity-media.co.uk/" target="_blank">Simon Ward</a>
+  "Really Good Terrible Things" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://identity-media.co.uk/" target="_blank">Simon Ward</a>
   `,
 };

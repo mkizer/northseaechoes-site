@@ -10,40 +10,19 @@ const images = Object.values(
 
 const metadata = {
   title: 'Images | North Sea Echoes',
-  description: 'Promotional photos',
+  description: 'Promotional Photos',
 };
 ---
 
-<!-- Original gallery display --><!-- <Layout metadata={metadata}>
-  <section class="max-w-6xl mx-auto px-4 py-12">
-    <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Images</h1>
-      <p class="mt-4 text-lg text-neutral-400">Promotional photos.</p>
-    </div>
-
-    <div class="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4 [column-fill:_balance]">
-      {
-        images.map((img) => (
-          <div class="break-inside-avoid overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/30 transition-all duration-300 hover:scale-[1.02] hover:border-neutral-700">
-            <Image
-              src={img.default}
-              alt="North Sea Echoes promotional photo"
-              width={800}
-              widths={[400, 800]}
-              sizes="(max-w-600px) 400px, 800px"
-              class="w-full h-auto object-cover"
-            />
-          </div>
-        ))
-      }
-    </div>
-  </section>
-</Layout> --><!-- New gallery layout -->
 <Layout metadata={metadata}>
   <section class="max-w-6xl mx-auto px-4 py-12">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Images</h1>
-      <p class="mt-4 text-lg text-neutral-400">Promotional Photos</p>
+      <p class="mt-4 text-lg text-neutral-400 font-medium">Promotional Photos</p>
+      <p class="mt-4 text-sm text-neutral-400">
+        All photos courtesy of <a href="https://jeremysaffer.com/" target="_blank">Jeremy Saffer</a> except where noted.<br
+        />The main photo from the home page of this site (Jim and Ray standing in a field) was taken by Laurie Matheos.
+      </p>
     </div>
 
     <!-- Masonry Grid Container -->

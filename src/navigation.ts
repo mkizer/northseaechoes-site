@@ -57,8 +57,8 @@ export const footerData = {
   ],
   footNote: `
   © 2026 North Sea Echoes<br />
-  Site by <a class="text-blue-600 underline dark:text-muted" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a><br />
-  "How to Cast a Shadow" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a><br />
-  "Really Good Terrible Things" Artwork by <a class="text-blue-600 underline dark:text-muted" href="https://identity-media.co.uk/" target="_blank">Simon Ward</a>
+  Site by <a class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out" href="https://michaelkizer.com/" target="_blank">Michael Kizer</a><br />
+  "How to Cast a Shadow" Artwork by <a class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out" href="https://www.cfriel.com/home" target="_blank">Chris Friel</a><br />
+  "Really Good Terrible Things" Artwork by <a class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out" href="https://identity-media.co.uk/" target="_blank">Simon Ward</a>
   `,
 };

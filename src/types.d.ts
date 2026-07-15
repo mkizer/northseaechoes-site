@@ -150,6 +150,7 @@ export interface Input {
   label?: string;
   autocomplete?: string;
   placeholder?: string;
+  required?: boolean;
 }
 
 export interface Textarea {
@@ -157,6 +158,7 @@ export interface Textarea {
   name?: string;
   placeholder?: string;
   rows?: number;
+  required?: boolean;
 }
 
 export interface Disclaimer {
@@ -170,6 +172,7 @@ export interface CallToAction extends Omit<HTMLAttributes<'a'>, 'slot'> {
   icon?: string;
   classes?: Record<string, string>;
   type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 }
 
 export interface Collapse {
@@ -181,6 +184,9 @@ export interface Collapse {
 }
 
 export interface Form {
+  action?: string;
+  method?: string;
+  hiddenInputs?: Array<{ name: string; value: string }>;
   inputs?: Array<Input>;
   textarea?: Textarea;
   disclaimer?: Disclaimer;

@@ -17,20 +17,35 @@ const metadata = {
     id="form"
     title="Drop us a message..."
     subtitle="or find us via the social media links below"
+    action="https://api.web3forms.com/submit"
+    method="POST"
+    hiddenInputs={[
+      {
+        name: 'access_key',
+        value: '8a543a0c-6ff0-4a81-8a57-c6f45acd54ab',
+      },
+      {
+        name: 'redirect',
+        value: new URL('/thanks', Astro.url).href,
+      },
+    ]}
     inputs={[
       {
         type: 'text',
         name: 'name',
         label: 'Name',
+        required: true,
       },
       {
         type: 'email',
         name: 'email',
         label: 'Email',
+        required: true,
       },
     ]}
     textarea={{
       label: 'Message',
+      required: true,
     }}
     disclaimer={{
       label:

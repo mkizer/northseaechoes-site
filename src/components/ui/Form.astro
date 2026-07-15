@@ -2,14 +2,24 @@
 import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
 
-const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
+const {
+  action,
+  method,
+  hiddenInputs,
+  inputs,
+  textarea,
+  disclaimer,
+  button = 'Contact us',
+  description = '',
+} = Astro.props;
 ---
 
-<form>
+<form action={action} method={method}>
+  {hiddenInputs && hiddenInputs.map(({ name, value }) => <input type="hidden" name={name} value={value} />)}
   {
     inputs &&
       inputs.map(
-        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '' }) =>
+        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', required = false }) =>
           name && (
             <div class="mb-6">
               {label && (
@@ -23,6 +33,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
                 id={name}
                 autocomplete={autocomplete}
                 placeholder={placeholder}
+                required={required}
                 class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
               />
             </div>
@@ -41,6 +52,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
           name={textarea.name ? textarea.name : 'message'}
           rows={textarea.rows ? textarea.rows : 4}
           placeholder={textarea.placeholder}
+          required={textarea.required}
           class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
         />
       </div>
@@ -70,7 +82,12 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
   {
     button && (
       <div class="mt-10 grid">
-        <Button variant="primary" type="submit">
+        <Button
+          variant="primary"
+          type="submit"
+          disabled={!!disclaimer}
+          class="disabled:opacity-50 disabled:cursor-not-allowed"
+        >
           {button}
         </Button>
       </div>
@@ -85,3 +102,20 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 </form>
+
+<script>
+  document.querySelectorAll('form').forEach((form) => {
+    const disclaimer = form.querySelector('#disclaimer') as HTMLInputElement | null;
+    const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+
+    if (disclaimer && submitBtn) {
+      // Initialize state on load
+      submitBtn.disabled = !disclaimer.checked;
+
+      // Handle change events
+      disclaimer.addEventListener('change', () => {
+        submitBtn.disabled = !disclaimer.checked;
+      });
+    }
+  });
+</script>

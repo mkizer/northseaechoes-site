@@ -23,7 +23,9 @@ On **"Throwing Stones"**, **Ray Alder** shares, _"This is a strange one. Some pe
 
 **ORDER [HERE](https://www.metalblade.com/northseaechoes)**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQH-oSChCUE?si=P0E0Ds0QZjsRDcPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+import { YouTube } from 'astro-embed';
+
+<YouTube id="dQH-oSChCUE" />
 
 ### **Throwing Stones**
 

@@ -5,6 +5,7 @@ import Note from '~/components/widgets/Note.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { YouTube } from 'astro-embed';
 
 const metadata = {
   title: 'North Sea Echoes',
@@ -60,25 +61,17 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/tkPqCTGQQhc?si=V9vZHq3nWV5nMJVv"
-        title="YouTube video player"
-        style="border: 0;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
+      <YouTube
+        id="tkPqCTGQQhc"
+        title="I'll Leave a Light On"
+        class="w-full max-w-[560px] aspect-video rounded-lg overflow-hidden"
+      />
       <br />
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/sbXCX_P617k?si=SffDStP4KrTOBKHr"
-        title="YouTube video player"
-        style="border: 0;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
+      <YouTube
+        id="sbXCX_P617k"
+        title="Enjoy the View"
+        class="w-full max-w-[560px] aspect-video rounded-lg overflow-hidden"
+      />
       <br />
       <iframe
         width="100%"

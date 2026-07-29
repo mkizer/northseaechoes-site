@@ -15,6 +15,10 @@ export const headerData = {
       href: getPermalink('/music'),
     },
     {
+      text: 'Videos',
+      href: getPermalink('/videos'),
+    },
+    {
       text: 'Images',
       href: getPermalink('/images'),
     },
@@ -40,6 +44,7 @@ export const footerData = {
       links: [
         { text: 'Bio', href: '/bio' },
         { text: 'Music', href: '/music' },
+        { text: 'Videos', href: '/videos' },
         { text: 'Images', href: '/images' },
         { text: 'Contact', href: '/contact' },
       ],

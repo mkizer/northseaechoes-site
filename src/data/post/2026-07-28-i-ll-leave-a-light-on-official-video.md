@@ -26,31 +26,31 @@ Video by Simon Ward for 1d3ntity [https://identity-media.co.uk](https://identity
 Buy the new album, **'How To Cast A Shadow'** here:  
 **[www.metalblade.com/northseaechoes](https://www.metalblade.com/northseaechoes)**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tkPqCTGQQhc?si=V9vZHq3nWV5nMJVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tkPqCTGQQhc?si=V9vZHq3nWV5nMJVv" title="YouTube video player" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **I'll Leave a Light On**
 
 You walk alone among the dead you never took more than you could give  
-They say a time will someday come when there’s no moon and there’s no sun  
+They say a time will someday come when there’s no moon and there’s no sun
 
 In your hour of need drown your sorrows to forget tomorrow  
-The stars above turn gray close your eyes but the memories stay  
+The stars above turn gray close your eyes but the memories stay
 
 You’re on the run from the ghosts of your past  
 A fragile heart offered up in your hands  
 I’ll leave a light on in case you come back but I won’t hold my breath  
-You’re lost in the black  
+You’re lost in the black
 
-By now you know there’s no reprieve no gods to follow no truths to believe  
-
-You’re on the run from the ghosts of your past  
-A fragile heart offered up in your hands  
-I’ll leave a light on in case you come back but I won’t hold my breath  
-While you’re in the black  
-
-Your silence screams louder than words a heavy heart beats but can’t be heard  
+By now you know there’s no reprieve no gods to follow no truths to believe
 
 You’re on the run from the ghosts of your past  
 A fragile heart offered up in your hands  
 I’ll leave a light on in case you come back but I won’t hold my breath  
-You’re lost in the black  
+While you’re in the black
+
+Your silence screams louder than words a heavy heart beats but can’t be heard
+
+You’re on the run from the ghosts of your past  
+A fragile heart offered up in your hands  
+I’ll leave a light on in case you come back but I won’t hold my breath  
+You’re lost in the black

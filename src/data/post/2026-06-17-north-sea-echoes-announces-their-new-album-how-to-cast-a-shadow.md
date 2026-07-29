@@ -30,7 +30,7 @@ Reflecting on **North Sea Echoes**' sophomore album, the duo says, _"I guess you
 Buy the new album, **'How To Cast A Shadow'** here:  
 **[www.metalblade.com/northseaechoes](https://www.metalblade.com/northseaechoes)**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sbXCX_P617k?si=bP4JduAFOmv5s0QN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sbXCX_P617k?si=bP4JduAFOmv5s0QN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Enjoy the View**
 

@@ -27,7 +27,7 @@ for [MyGoodEye : Music Visuals](https://www.instagram.com/mygoodeyevisuals)
 producer/cameras:  
 Allison Woest
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RjGl1d2SqnU?si=t9kZNrhepXhf4HdW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RjGl1d2SqnU?si=t9kZNrhepXhf4HdW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Empty**
 

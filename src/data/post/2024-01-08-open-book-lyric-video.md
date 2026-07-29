@@ -21,7 +21,7 @@ The first single off the record, “Open Book” kicks things off, and was also 
 
 Lyric Video by Simon Ward for 1d3ntity - [identity-media.co.uk](https://identity-media.co.uk/)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dvYfsvcjjPo?si=7INx89bui9s9pYbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dvYfsvcjjPo?si=7INx89bui9s9pYbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Open Book**
 

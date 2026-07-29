@@ -26,8 +26,7 @@ Video by Simon Ward for 1d3ntity [https://identity-media.co.uk](https://identity
 Buy the new album, **'How To Cast A Shadow'** here:  
 **[www.metalblade.com/northseaechoes](https://www.metalblade.com/northseaechoes)**
 
-**Watch Here:**  
-[https://www.youtube.com/watch?v=tkPqCTGQQhc](https://www.youtube.com/watch?v=tkPqCTGQQhc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tkPqCTGQQhc?si=V9vZHq3nWV5nMJVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **I'll Leave a Light On**
 

@@ -14,7 +14,7 @@ metadata:
 ---
 
 **New Noise Magazine's** interview with **Ray Alder** from July 20, 2026.  
-Originally published here: [https://newnoisemagazine.com/interviews/interview-north-sea-echoes-vocalist-ray-alder-talks-how-to-cast-a-shadow/](newnoisemagazine.com/interviews/interview-north-sea-echoes-vocalist-ray-alder-talks-how-to-cast-a-shadow/)
+Originally published here: <a href="https://newnoisemagazine.com/interviews/interview-north-sea-echoes-vocalist-ray-alder-talks-how-to-cast-a-shadow/" target="_blank">newnoisemagazine.com/interviews/interview-north-sea-echoes-vocalist-ray-alder-talks-how-to-cast-a-shadow</a>
 
 ---
 

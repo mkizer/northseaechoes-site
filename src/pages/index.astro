@@ -5,7 +5,7 @@ import Note from '~/components/widgets/Note.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import { YouTube } from 'astro-embed';
+import YouTubeEmbed from '~/components/common/YouTubeEmbed.astro';
 
 const metadata = {
   title: 'North Sea Echoes',
@@ -61,23 +61,11 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <YouTube
-        id="SCT5So6Jmlc"
-        title="Good Enough"
-        class="w-full max-w-[560px] aspect-video rounded-lg overflow-hidden"
-      />
+      <YouTubeEmbed id="SCT5So6Jmlc" title="Good Enough" class="w-full max-w-[560px]" />
       <br />
-      <YouTube
-        id="tkPqCTGQQhc"
-        title="I'll Leave a Light On"
-        class="w-full max-w-[560px] aspect-video rounded-lg overflow-hidden"
-      />
+      <YouTubeEmbed id="tkPqCTGQQhc" title="I'll Leave a Light On" class="w-full max-w-[560px]" />
       <br />
-      <YouTube
-        id="sbXCX_P617k"
-        title="Enjoy the View"
-        class="w-full max-w-[560px] aspect-video rounded-lg overflow-hidden"
-      />
+      <YouTubeEmbed id="sbXCX_P617k" title="Enjoy the View" class="w-full max-w-[560px]" />
     </Fragment>
 
     <Fragment slot="bg">

@@ -90,9 +90,30 @@ const metadata = {
               onclick="arguments[0]?.stopPropagation()"
             >
               <p class="text-sm font-semibold text-neutral-200">
-                {img.meta.credit && <span>Photo by {img.meta.credit}</span>}
-                {img.meta.credit && img.meta.date && <span class="mx-2 text-neutral-500">•</span>}
-                {img.meta.date && <span class="text-neutral-400">{img.meta.date}</span>}
+                {img.meta.credits.length > 0 && (
+                  <span>
+                    Photo by{' '}
+                    {img.meta.credits.map((credit, idx) => (
+                      <>
+                        {credit.url ? (
+                          <a
+                            href={credit.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="underline decoration-neutral-500 hover:decoration-white hover:text-white transition-colors"
+                          >
+                            {credit.name}
+                          </a>
+                        ) : (
+                          <span>{credit.name}</span>
+                        )}
+                        {idx < img.meta.credits.length - 1 && ', '}
+                      </>
+                    ))}
+                  </span>
+                )}
+                {img.meta.credits.length > 0 && img.meta.year && <span class="mx-2 text-neutral-500">•</span>}
+                {img.meta.year && <span class="text-neutral-400">{img.meta.year}</span>}
               </p>
               {img.meta.description && (
                 <p class="mt-1 text-xs text-neutral-400 max-w-xl mx-auto">{img.meta.description}</p>
